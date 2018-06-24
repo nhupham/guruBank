@@ -24,7 +24,7 @@ public class Tests {
 	Deposit objDeposit;
 
 	@BeforeTest
-	public void setup() {
+	public void setUp() {
 		System.setProperty("webdriver.chrome.driver", "/Users/admin/Downloads/chromedriver");
 		driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
@@ -38,7 +38,7 @@ public class Tests {
 	 * Dashboard message
 	 */
 	@Test(priority = 0)
-	public void test_Home_Page_Appear_Correct() {
+	public void testHomePageAppearCorrect() {
 		// Create Login Page object
 		objLogin = new LoginPage(driver);
 		// Verify login page title
@@ -49,7 +49,7 @@ public class Tests {
 		// go the next page
 		objHomePage = new HomePage(driver);
 		// Verify home page
-		AssertJUnit.assertTrue(objHomePage.getHomePageDashboardUserName().toLowerCase().contains("manger id : mgr123"));
+		AssertJUnit.assertTrue(objHomePage.getHomePageDashboardUserName().contains("Manger Id : mgr123"));
 	}
 
 	/**
@@ -57,7 +57,7 @@ public class Tests {
 	 * title as Add New Customer
 	 */
 	@Test(priority = 1)
-	public void test_create_new_customer() {
+	public void testCreateNewCustomer() {
 		// Create new customer Page object
 		objNewCustomer = new NewCustomer(driver).navigateToNewCustomer();
 		// Verify add new customer page title
@@ -77,7 +77,7 @@ public class Tests {
 	 * account form Verify create new account successfully
 	 */
 	@Test(priority = 2)
-	public void test_create_new_account() {
+	public void testCreateNewAccount() {
 		// Create new account Page object
 		objNewAccount = new NewAccount(driver).navigateToNewAccount();
 		// Verify add new Account page title
@@ -94,7 +94,7 @@ public class Tests {
 	 * Deposit Form Verify create new deposit successfully
 	 */
 	@Test(priority = 3)
-	public void test_create_new_deposit() {
+	public void testCreateNewDeposit() {
 		// Create new deposit Page object
 		objDeposit = new Deposit(driver).navigateToDeposit();
 		// Verify add new deposit page title

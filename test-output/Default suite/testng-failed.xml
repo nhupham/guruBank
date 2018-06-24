@@ -5,8 +5,8 @@
     <classes>
       <class name="testCases.Tests">
         <methods>
-          <include name="test_create_new_deposit"/>
-          <include name="setup"/>
+          <include name="testHomePageAppearCorrect"/>
+          <include name="setUp"/>
           <include name="afterTest"/>
         </methods>
       </class> <!-- testCases.Tests -->
