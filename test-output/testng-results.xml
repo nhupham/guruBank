@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="17135" started-at="2018-06-24T09:19:50Z" finished-at="2018-06-24T09:20:07Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="17135" started-at="2018-06-24T09:19:50Z" finished-at="2018-06-24T09:20:07Z">
+      <class name="testCases.Tests">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testCases.Tests@77ec78b9]" name="setup" is-config="true" duration-ms="6929" started-at="2018-06-24T09:19:50Z" finished-at="2018-06-24T09:19:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="test_Home_Page_Appear_Correct()[pri:0, instance:testCases.Tests@77ec78b9]" name="test_Home_Page_Appear_Correct" duration-ms="1921" started-at="2018-06-24T09:19:57Z" finished-at="2018-06-24T09:19:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Home_Page_Appear_Correct -->
+        <test-method status="PASS" signature="test_create_new_customer()[pri:1, instance:testCases.Tests@77ec78b9]" name="test_create_new_customer" duration-ms="3794" started-at="2018-06-24T09:19:59Z" finished-at="2018-06-24T09:20:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_create_new_customer -->
+        <test-method status="PASS" signature="test_create_new_account()[pri:2, instance:testCases.Tests@77ec78b9]" name="test_create_new_account" duration-ms="1919" started-at="2018-06-24T09:20:02Z" finished-at="2018-06-24T09:20:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_create_new_account -->
+        <test-method status="PASS" signature="test_create_new_deposit()[pri:3, instance:testCases.Tests@77ec78b9]" name="test_create_new_deposit" duration-ms="2198" started-at="2018-06-24T09:20:04Z" finished-at="2018-06-24T09:20:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_create_new_deposit -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:testCases.Tests@77ec78b9]" name="afterTest" is-config="true" duration-ms="305" started-at="2018-06-24T09:20:06Z" finished-at="2018-06-24T09:20:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- testCases.Tests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
